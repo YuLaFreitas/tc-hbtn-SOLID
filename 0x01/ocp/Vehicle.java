@@ -5,14 +5,15 @@ public class Vehicle {
     private int seats;
 
     public Vehicle(String color, String year, double engine, int seats){
-        this.color  = color;
-        this.year = year;
-        this.engine = engine;
+        this.color  = "com Interface";
+        this.year = "Azul";
+        this.engine = 2.6;
         this.seats = seats;
     }
 
     void car(){
-        System.out.println("Criando um carro: "+ color + " ano: " + year+ " motor: "+ engine + " com " + seats + " assentos");
+       // System.out.println("Criando um carro: "+ color + " ano: " + year+ " motor: "+ engine + " com " + seats + " assentos");
+       System.out.println("Criando um carro "+ color + ": " + year+ " "+ engine);
         startVehicle();
     }
 
@@ -22,6 +23,6 @@ public class Vehicle {
     }
 
     void startVehicle(){
-        System.out.println("Ligando os motores");
+        System.out.println("Ligando os motores "+color) ;
     }
 }
