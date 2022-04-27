@@ -1,4 +1,4 @@
-public class PostgreSqlProductRepository implements  IDbProduct{
+public class PostgreSqlProductRepository implements IDbProduct{
     @Override
     public String getProductById(String productID) {
         return null;
