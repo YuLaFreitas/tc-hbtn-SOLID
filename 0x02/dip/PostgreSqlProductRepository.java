@@ -1,7 +1,7 @@
 public class PostgreSqlProductRepository implements IDbProduct{
     @Override
     public String getProductById(String productID) {
-        return null;
+        return DB.POSTGRESQL.name();
     }
 
     @Override

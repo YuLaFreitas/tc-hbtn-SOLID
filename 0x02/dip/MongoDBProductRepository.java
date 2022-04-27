@@ -1,7 +1,7 @@
 public class MongoDBProductRepository implements IDbProduct{
     @Override
     public String getProductById(String productID) {
-        return null;
+        return DB.MONGODB.name();
     }
 
     @Override

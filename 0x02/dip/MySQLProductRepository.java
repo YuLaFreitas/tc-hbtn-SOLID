@@ -1,7 +1,7 @@
 public class MySQLProductRepository implements IDbProduct {
 
     public String getProductById(String productID){
-        return null;
+        return DB.MYSQL.name();
     }
 
     @Override
