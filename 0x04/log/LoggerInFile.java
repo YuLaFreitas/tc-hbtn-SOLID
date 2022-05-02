@@ -14,7 +14,7 @@ public class LoggerInFile {
 
         Logger logger = Logger.getLogger("MyLog");
 
-        FileHandler fileHandler = null;
+        FileHandler fileHandler;
         try {
             fileHandler = new FileHandler("logs.txt");
         } catch (IOException e) {
